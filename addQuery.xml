@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<queries>
+	<query name="New Query 1" setAsDefault="false" isPublic="false" ownerID="1">
+		<field name="issueNum" width="75" sort="none" sortSeqNum="-1"/>
+		<field name="status" width="75" sort="none" sortSeqNum="-1"/>
+		<queryIssue issueDB="accurev-depot" useAltQuery="false">
+			<AND>
+				<condition>1 != &quot;0&quot;</condition>
+			</AND>
+		</queryIssue>
+	</query>
+	<query name="SampleQuery" setAsDefault="false" isPublic="false" ownerID="1">
+		<field name="issueNum" width="100" sort="none" sortSeqNum="-1"/>
+		<field name="status" width="100" sort="none" sortSeqNum="-1"/>
+		<field name="assignedTo" width="100" sort="none" sortSeqNum="-1"/>
+		<field name="closedBy" width="100" sort="none" sortSeqNum="-1"/>
+		<field name="description" width="100" sort="none" sortSeqNum="-1"/>
+		<field name="shortDescription" width="100" sort="none" sortSeqNum="-1"/>
+		<queryIssue issueDB="accurev-depot" useAltQuery="false">
+			<AND>
+				<condition>14 == &quot;1&quot;</condition>
+			</AND>
+		</queryIssue>
+	</query>
+	<query name="TestQuery" setAsDefault="false" isPublic="false" ownerID="1">
+		<field name="issueNum" width="100" sort="none" sortSeqNum="-1"/>
+		<field name="status" width="100" sort="none" sortSeqNum="-1"/>
+		<field name="assignedTo" width="100" sort="none" sortSeqNum="-1"/>
+		<field name="closedBy" width="100" sort="none" sortSeqNum="-1"/>
+		<field name="description" width="100" sort="none" sortSeqNum="-1"/>
+		<field name="shortDescription" width="100" sort="none" sortSeqNum="-1"/>
+		<queryIssue issueDB="accurev-depot" useAltQuery="false">
+			<AND>
+				<condition>1 != &quot;0&quot;</condition>
+			</AND>
+		</queryIssue>
+	</query>
+</queries>

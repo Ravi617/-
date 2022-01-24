@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<queries>
+<query name = "New Query 1" setAsDefault = "false" isPublic = "false" ownerID = "1">
+<field name = "issueNum" width = "75" sort = "none" sortSeqNum = "-1"></field>
+<field name = "status" width = "75" sort = "none" sortSeqNum = "-1"></field>
+<queryIssue issueDB = "accurev-depot" useAltQuery = "false">
+<AND>
+
+<condition>
+1 != &quot;0&quot;
+
+</condition>
+</AND>
+</queryIssue>
+</query>
+
+</queries>
