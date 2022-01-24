@@ -1,0 +1,62 @@
+{
+	"elementId":"",
+	"transactions": [
+		{
+			"id": "277",
+			"time": 1642655349,
+			"type": "promote",
+			"user": "accurev-admin",
+			"comment": "",
+			"issueNum": "1",
+			"version": [
+				{
+					"virtual": "8/3",
+					"real": "8/3",
+					"virtualNamedVersion": "ac_stream_1_accurev-admin/3",
+					"realNamedVersion": "ac_stream_1_accurev-admin/3",
+					"ancestor": "25/1",
+					"ancestorNamedVersion": "ac_stream_workspace_ravi/1",
+					"merged_against": "8/2",
+					"mergedAgainstNamedVersion": "ac_stream_1_accurev-admin/2",
+					"rebased": "yes",
+					"elem_type": "text",
+					"dir": "no"
+				}
+			],		
+			
+			"patchSegments": [
+				{
+					"head_stream": "8",
+					"head_stream_name": "ac_stream_1_accurev-admin",
+					"head_version": "2",
+					"basis_stream": "8",
+					"basis_stream_name": "ac_stream_1_accurev-admin",
+					"basis_version": "1",
+					"is_tip_version": "yes"
+				}
+			]
+		}
+	],
+	"stream": [
+		{
+			"id": "3",
+			"name": "ac_stream_1",
+			"type": "normal"
+		},
+		{
+			"id": "8",
+			"name": "ac_stream_1_accurev-admin",
+			"type": "workspace"
+		},
+		{
+			"id": "13",
+			"name": "ac_stream_dev_1_dev",
+			"type": "workspace"
+		},
+		{
+			"id": "25",
+			"name": "ac_stream_workspace_ravi",
+			"type": "workspace"
+		}
+	]
+}
